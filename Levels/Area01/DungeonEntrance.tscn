@@ -16,3 +16,7 @@ position = Vector2(252, 149)
 position = Vector2(-96, 160)
 level = "uid://d3thyfp2p3ag5"
 target_transition_area = "LevelTransition3"
+
+[node name="LevelTransition" parent="LevelTransitionDungeon" instance=ExtResource("3_3sjdr")]
+position = Vector2(295, -181)
+scale = Vector2(1.5525, 1.39134)

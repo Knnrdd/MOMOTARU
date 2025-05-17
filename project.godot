@@ -40,7 +40,7 @@ window/stretch/mode="viewport"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/michael_games_editor_plugins/plugin.cfg")
+enabled=PackedStringArray()
 
 [global_group]
 
