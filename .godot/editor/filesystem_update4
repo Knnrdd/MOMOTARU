@@ -1,0 +1,14 @@
+res://title_scene/title_scene.tscn
+res://Items/a_tunic.tres
+res://Items/w_iron_sword.tres
+res://GUI/pause_menu/inventory/player_inventory.tres
+res://GUI/dialog_system/dialog_choice_theme.tres
+res://Items/gem.tres
+res://Items/apple.tres
+res://Levels/Area01/1.tscn
+res://Levels/Area01/2.tscn
+res://Levels/Area01/3.tscn
+res://Levels/Area01/DungeonEntrance.tscn
+res://title_scene/Introduction.tscn
+res://title_scene/splash_scene.tscn
+res://Tile Maps/grass-tiles-01.tscn
