@@ -1,0 +1,15 @@
+CollisionShape2D
+DialogText
+DialogInteraction
+NPCBehavior
+NPC
+AudioStreamPlayer2D
+CanvasLayer
+Camera2D
+VideoStreamPlayer
+Control
+ColorRect
+AnimationPlayer
+Sprite2D
+MarginContainer
+Panel

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://buqqsr8esm55h"
+path="res://.godot/imported/FFX OST - Path of Repentance..mp3-864270cc7a3132810bcc7772e9e2c359.mp3str"
+
+[deps]
+
+source_file="res://Levels/music/FFX OST - Path of Repentance..mp3"
+dest_files=["res://.godot/imported/FFX OST - Path of Repentance..mp3-864270cc7a3132810bcc7772e9e2c359.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

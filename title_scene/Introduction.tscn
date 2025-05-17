@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw37wh5p3lfi0"]
+
+[ext_resource type="VideoStream" uid="uid://dsvegn1b3sbgm" path="res://title_scene/cutscene Intro 1.ogv" id="1_rtcoi"]
+[ext_resource type="Script" uid="uid://k8ijud8px2b6" path="res://title_scene/Cutscene.gd" id="1_vufcr"]
+
+[node name="Introduction" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_vufcr")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 482.0
+offset_bottom = 273.0
+stream = ExtResource("1_rtcoi")
+autoplay = true
+expand = true
+
+[node name="Camera2D" type="Camera2D" parent="VideoStreamPlayer"]
+texture_filter = 1
+position = Vector2(240, 135)
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
