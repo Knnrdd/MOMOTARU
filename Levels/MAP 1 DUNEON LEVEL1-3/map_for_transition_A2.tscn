@@ -1,10 +1,11 @@
-[gd_scene load_steps=4 format=4 uid="uid://cxyxsn724f0tn"]
+[gd_scene load_steps=5 format=4 uid="uid://cxyxsn724f0tn"]
 
 [ext_resource type="PackedScene" uid="uid://cq32mohonpsw3" path="res://Tile Maps/grass-tiles-01.tscn" id="1_tbiii"]
 [ext_resource type="PackedScene" uid="uid://bcskysr5no5a6" path="res://Tile Maps/dungeon_tiles_01.tscn" id="2_ba7qb"]
 [ext_resource type="PackedScene" uid="uid://vlpiuopcomwi" path="res://Levels/level_transition.tscn" id="3_bpnk0"]
+[ext_resource type="PackedScene" uid="uid://dr4blo7ya448q" path="res://Levels/player_spawn.tscn" id="4_ba7qb"]
 
-[node name="MAP FOR TRANSITION A3" type="Node2D"]
+[node name="MAP FOR TRANSITION A3" type="Node2D" groups=["tilemaps"]]
 
 [node name="grass-tiles-01" parent="." instance=ExtResource("1_tbiii")]
 position = Vector2(-3, 0)
@@ -16,3 +17,7 @@ tile_map_data = PackedByteArray("AAAuAP3/AQAAAAQAAAAuAP7/AQAAAAQAAAAuAP//AQAAAAQ
 [node name="LevelTransition A-" parent="grass-tiles-01" instance=ExtResource("3_bpnk0")]
 position = Vector2(1508, 297)
 scale = Vector2(1.08804, 1.61387)
+
+[node name="PlayerSpawn" parent="." instance=ExtResource("4_ba7qb")]
+position = Vector2(1438, 280)
+rotation = -3.11528

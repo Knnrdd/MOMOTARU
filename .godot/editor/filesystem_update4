@@ -1,27 +1,16 @@
-res://Levels/player_spawn.tscn
+res://Levels/MAP 1 DUNEON LEVEL1-3/map_for_transition_A2.tscn
 res://Items/a_tunic.tres
 res://Items/w_iron_sword.tres
 res://GUI/pause_menu/inventory/player_inventory.tres
 res://GUI/dialog_system/dialog_choice_theme.tres
 res://Items/gem.tres
 res://Items/apple.tres
-res://Levels/dungeon 1.5/dungeon_entrance.tscn
+res://Items/key_dungeon.tres
 res://title_scene/title_scene.tscn
 res://Levels/Area01/1.tscn
 res://Levels/Area01/2.tscn
 res://Levels/Area01/3.tscn
-res://title_scene/Introduction.tscn
-res://title_scene/splash_scene.tscn
-res://Tile Maps/grass-tiles-01.tscn
-res://Levels/level_transition.tscn
-res://Levels/level_transition_interact.tscn
 res://Levels/Area01/DungeonEntrance.tscn
-res://Items/potion.tres
-res://quests/recover_lost_flute.tres
-res://Items/key_dungeon.tres
-res://Levels/Dungeon01/01.tscn
-res://Levels/Dungeon01/02.tscn
+res://Levels/MAP 1 DUNEON LEVEL1-3/dungeon_1_5_map_1.tscn
+res://Levels/MAP 1 DUNEON LEVEL1-3/map_for_transition_A1.tscn
 res://Levels/Dungeon01/03.tscn
-res://Levels/Dungeon01/04.tscn
-res://Levels/dungeon 1.5/dungeon_1_5_map_1.tscn
-res://Levels/dungeon 1.5/map_for_transition_A.tscn

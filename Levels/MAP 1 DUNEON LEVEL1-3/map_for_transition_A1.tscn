@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://vlpiuopcomwi" path="res://Levels/level_transition.tscn" id="3_ladjq"]
 [ext_resource type="PackedScene" uid="uid://dr4blo7ya448q" path="res://Levels/player_spawn.tscn" id="4_wsm22"]
 
-[node name="map for transition A" type="Node2D"]
+[node name="map for transition A" type="Node2D" groups=["tilemaps"]]
 
 [node name="grass-tiles-01" parent="." instance=ExtResource("1_w6cwg")]
 position = Vector2(-3, 0)
